@@ -7,7 +7,7 @@
   --main-bg-color: #e5e5e5;
   --second-bg-color: #f5f4fa;
   --footer-link-color: rgba(255, 255, 255, 0.6);
-  --logo-font: 'Raleway', sans-serif;
+  --logo-font: "Raleway", sans-serif;
   --grid-item: 1;
 }
 
@@ -25,7 +25,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -227,6 +227,18 @@ img {
   background-color: var(--second-bg-color);
   cursor: pointer;
   border-radius: 4px;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4));
+  background-image: url(/images/bgimage.jpg);
 }
 
 .dark-bg-title {
