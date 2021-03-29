@@ -101,7 +101,8 @@ img {
 
 .bg-title-work,
 .second-bg-color,
-.main-bg-color {
+.main-bg-color,
+.our-clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -137,7 +138,8 @@ img {
 
 .list-nav,
 .list-contact,
-.list-features {
+.list-features,
+.client-list {
   display: flex;
   margin-bottom: 0;
   margin-top: 0;
@@ -277,6 +279,30 @@ img {
 
 .social-icons-item + .social-icons-item {
   margin-left: 10px;
+}
+
+.client-list .icon-client {
+  fill: var(--team-icon-color);
+}
+
+/*.list .client-list {
+  display: inline-flex;
+  margin-right: auto;
+  margin-left: auto;
+}*/
+
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--team-icon-color);
+  border-radius: 4px;
+}
+
+.client-item + .client-item {
+  margin-left: 30px;
 }
 
 .dark-bg-title {
