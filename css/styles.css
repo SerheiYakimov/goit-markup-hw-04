@@ -285,12 +285,6 @@ img {
   fill: var(--team-icon-color);
 }
 
-/*.list .client-list {
-  display: inline-flex;
-  margin-right: auto;
-  margin-left: auto;
-}*/
-
 .client-link {
   display: flex;
   justify-content: center;
@@ -299,6 +293,17 @@ img {
   height: 90px;
   border: 1px solid var(--team-icon-color);
   border-radius: 4px;
+}
+
+.client-link:hover .icon-client,
+.client-link:focus .icon-client {
+  fill: var(--accent-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+  background-color: var(--title-color);
+  border: 1px solid var(--accent-color);
 }
 
 .client-item + .client-item {
