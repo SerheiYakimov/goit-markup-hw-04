@@ -381,6 +381,22 @@ img {
   list-style: none;
 }
 
+.item-list .icon {
+  width: 70px;
+  height: 70px;
+}
+
+.item-list .icon-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  border-solid;
+  background-color:var(--second-bg-color);
+
+/* before для оосбенностей, если есть просто картинки
+
 .item-list {
   width: 270px;
 
@@ -414,6 +430,7 @@ img {
 .icon-astronaut::before {
   background-image: url("/images/icon/astronaut1.svg");
 }
+*/
 
 .hero {
   display: flex;
