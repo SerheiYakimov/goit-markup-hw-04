@@ -544,6 +544,11 @@ img {
   margin-bottom: 50px;
 }
 
+.project-item {
+  background: var(--title-color);
+  border: 1px solid #eeeeee;
+}
+
 .project-link {
   text-decoration: none;
 }
