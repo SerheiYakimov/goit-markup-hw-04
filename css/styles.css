@@ -76,6 +76,16 @@ img {
   margin-right: auto;
 }
 
+.footer-contacts,
+.footer-social-icon {
+  display: inline-block;
+  
+}
+
+.footer-social-icon {
+  marg
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -402,6 +412,50 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-text-color);
+}
+
+.title-footer-icon {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.icons-footer-item {
+  margin-top: 20px;
+}
+
+.icons-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icons-footer .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--title-color);
+}
+
+.icons-footer-link:hover .icon,
+.icons-footer-link:focus .icon {
+  fill: var(--title-color);
+}
+.icons-footer-link:hover,
+.icons-footer-link:focus {
+  background-color: var(--accent-color);
+}
+
+.icons-footer-item + .icons-footer-item {
+  margin-left: 10px;
 }
 
 .hero {
