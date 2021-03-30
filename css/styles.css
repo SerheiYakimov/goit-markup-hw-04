@@ -258,7 +258,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("./images/bg-image.jpg");
+    url("../images/bg-image.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
