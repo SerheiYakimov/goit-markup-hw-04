@@ -393,10 +393,8 @@ img {
   align-items: center;
   width: 270px;
   height: 120px;
-  border-solid;
-  background-color:var(--second-bg-color);
-
-/* before для оосбенностей, если есть просто картинки
+  background-color: var(--second-bg-color);
+}
 
 .item-list {
   width: 270px;
@@ -405,33 +403,6 @@ img {
   line-height: 1.71;
   color: var(--main-text-color);
 }
-
-.item-list::before {
-  display: inline-block;
-  content: " ";
-  width: 270px;
-  height: 120px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-antenna::before {
-  background-image: url("/images/icon/antenna1.svg");
-}
-
-.icon-clock::before {
-  background-image: url("/images/icon/clock1.svg");
-}
-
-.icon-diagram::before {
-  background-image: url("/images/icon/diagram1.svg");
-}
-
-.icon-astronaut::before {
-  background-image: url("/images/icon/astronaut1.svg");
-}
-*/
 
 .hero {
   display: flex;
