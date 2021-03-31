@@ -65,7 +65,7 @@ img {
 
 .header {
   background-color: var(--title-color);
-  border-bottom: 1px solid #ececec;
+  padding-bottom: 42px;
 }
 
 .conteiner {
@@ -110,6 +110,7 @@ img {
 .header-section {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-logo {
@@ -328,7 +329,6 @@ img {
 }
 
 .dark-bg-title {
-  margin-top: 42px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -412,8 +412,8 @@ img {
   color: var(--main-text-color);
 }
 
-.footer {
-  display: inline-flex;
+.dark-bg-footer > .conteiner {
+  display: flex;
   align-items: baseline;
 }
 
