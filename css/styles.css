@@ -266,7 +266,7 @@ img {
 
 .list .social-icons {
   display: inline-flex;
-  padding: 16px 12px 10px;
+  margin-top: 16px;
 }
 
 .social-icons-link {
